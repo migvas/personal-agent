@@ -9,5 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
+.env
 .langgraph_api
 resources/
+
+.DS_Store

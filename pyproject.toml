@@ -1,0 +1,19 @@
+[project]
+name = "personal_agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ddgs>=9.6.1",
+    "icalendar>=6.3.1",
+    "langchain>=1.0.0a15",
+    "langchain-community>=0.3.31",
+    "langchain-ollama>=0.3.10",
+    "langgraph-cli[inmem]>=0.4.4",
+    "python-dotenv>=1.1.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["personal_agent"]
